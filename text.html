@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partner Login | FoodExpress</title>
+  <link rel="stylesheet" href="text.css">
+</head>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<body>
+  <div class="login-container" id="g_id_onload"  data-client_id="699248146280-cp3dp3ncapj2id0jtd01de7tbdc3afgv.apps.googleusercontent.com"
+     data-callback="handleCredentialResponse">
+    <h1>FoodExpress Partner</h1>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+
+     <!-- Google Sign-in button will render here. Replace YOUR_CLIENT_ID_HERE above with your Google Client ID -->
+
+    </form>
+     <div class="g_id_signin" data-type="standard"></div>
+  <p id="user-info"> </p>
+  </div>
+
+  
+
+
+  <!-- jwt-decode should load before text2.js so the handler can use jwt_decode if available -->
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
+  <script src="text2.js"></script>
+</body>
+</html>

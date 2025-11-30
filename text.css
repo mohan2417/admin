@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container, #g_id_onload{
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+.login-container h1{
+  color: #ff4d4d;
+  margin-bottom: 20px;
+}
+
+/* style the Google sign-in button area so it aligns with the form */
+.g_id_signin { margin-top: 12px; display: inline-block; border: none;}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  background: #ff4d4d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e63939;
+}
+
+.note {
+  font-size: 12px;
+  margin-top: 10px;
+  color: gray;
+}
+.pro{
+display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:6px 10px;
+    border-radius:20px;
+    text-decoration: none;
+    background:linear-gradient(180deg,#ffffff,#f2f4f7);
+    border:1px solid rgba(16,24,40,0.08);
+    box-shadow:0 1px 2px rgba(16,24,40,0.04);
+    color:#0f172a;
+    font-weight:600;
+    font-size:14px;
+    cursor:pointer;
+    transition:transform .08s ease, box-shadow .12s ease, background .12s ease;
+}
+.pro:hover{ transform:translateY(-2px); box-shadow:0 6px 18px rgba(15,23,42,0.08); }
+.pro:active{ transform:translateY(0); }

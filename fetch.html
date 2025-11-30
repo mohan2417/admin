@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fetch Test</title>
+</head>
+<body>
+  <h2>Testing JSON Fetch</h2>
+  <pre id="output">Loading...</pre>
+
+  <script>
+    async function testFetch() {
+      try {
+        const res = await fetch("orders.json");
+        const data = await res.json();
+        document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById("output").textContent = "❌ Failed to fetch: " + err;
+        console.error(err);
+      }
+    }
+
+    testFetch();
+  </script>
+</body>
+</html>

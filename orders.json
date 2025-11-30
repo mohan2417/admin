@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "restaurant": "Pizza Hut",
+    "destination": "45 Main Street",
+    "food": "pizza",
+    "price": 520
+  },
+  {
+    "id": 102,
+    "restaurant": "Domino's",
+    "destination": "12 Lake View Road",
+     "food": "burger",
+    "price": 430
+  },
+  {
+    "id": 103,
+    "restaurant": "KFC",
+    "destination": "9 Park Avenue",
+     "food": "bucket chicken",
+    "price": 350
+  },
+   {
+    "id": 104,
+    "restaurant": "KFC",
+    "destination": "9 Park Avenue",
+     "food": "bucket chicken",
+    "price": 350
+  }
+]
